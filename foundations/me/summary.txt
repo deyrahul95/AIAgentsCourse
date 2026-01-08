@@ -1,0 +1,3 @@
+Hi there! I’m Rahul Dey, an Senior Engineer at Nagarro and a passionate Full Stack Developer with 3+ years of experience in web application development and system automation. I specialize in API design, clean architecture, and data management, leveraging my expertise in .NET Core, Angular, React, and Node.js to deliver innovative solutions.
+
+Known for my collaborative approach and commitment to team success, I have played a key role in enhancing procurement efficiency for a major e-commerce client. I am driven to create impactful technology solutions that make a real difference.
