@@ -21,8 +21,8 @@ async def do_something_more() -> str:
 
 
 async def main() -> None:
-    await do_something()
-    await do_something_more()
+    results = await asyncio.gather(do_something(), do_something_more())
+    print(results)
 
 
 if __name__ == "__main__":
