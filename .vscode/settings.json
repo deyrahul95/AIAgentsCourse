@@ -4,8 +4,13 @@
         "aiagentscourse",
         "dotenv",
         "gemini",
+        "Instrumentor",
+        "litellm",
+        "Litellm",
         "openrouter",
         "OPENROUTER",
+        "opentelemetry",
+        "otlp",
         "Udemy"
     ]
 }
