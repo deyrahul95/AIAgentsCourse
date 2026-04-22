@@ -96,7 +96,7 @@ async def fetch_page_content(
 # Example usage
 if __name__ == "__main__":
     async def main():
-        url = "https://github.com/deyrahul95"
+        url = "https://cnn.com"
         text = await fetch_page_content(url)
         print(text)
     asyncio.run(main())
