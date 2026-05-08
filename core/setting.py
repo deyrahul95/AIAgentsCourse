@@ -10,9 +10,8 @@ class Setting:
     OPENROUTER_API_URL: str = os.getenv(
         key="OPENROUTER_API_URL", default="https://openrouter.ai/api/v1"
     )
-    OPENROUTER_MODEL: str = os.getenv(
-        key="OPENROUTER_MODEL", default="openai/gpt-oss-120b:free"
-    )
+    OPENROUTER_MODEL: str = os.getenv(key="OPENROUTER_MODEL", default="openai/gpt-oss-120b:free")
+    LLAMA_BASE_URL: str = os.getenv(key="LLAMA_BASE_URL", default="")
 
 
 @lru_cache()

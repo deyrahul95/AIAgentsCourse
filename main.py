@@ -1,12 +1,11 @@
 from core.ai_client import AIClient
-from core.setting import get_settings
 
 
 def main():
-    client = AIClient().get_openai_client()
+    client = AIClient().get_llama_client()
 
     response = client.chat.completions.create(
-        model=get_settings().OPENROUTER_MODEL,
+        model="openai/qwen2.5",
         messages=[
             {"role": "user", "content": "How many r's are in the word 'strawberry'?"}
         ],
