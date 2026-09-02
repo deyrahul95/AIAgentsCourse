@@ -1,5 +1,5 @@
-import random
 import asyncio
+import random
 
 
 async def do_something() -> str:
